@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Product-Landing-Page</title>
 </head>
-<body>
+
+<body class="fluid">
+
     <!-- ✨✨Navbar✨✨ -->
     <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top bg-dark">
         <div class="container">
@@ -28,10 +30,10 @@
                         <a href="#features" class="nav-link">Features</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a href="#video" class="nav-link">Product Video</a>
+                        <a href="#items" class="nav-link">Items</a>
                     </li>
                     <li class="nav-item ms-auto">
-                        <a href="#items" class="nav-link">Items</a>
+                        <a href="#video" class="nav-link">Product Video</a>
                     </li>
                     <li class="nav-item ms-auto">
                         <a href="#get-updated" class="nav-link">Get Updated</a>
@@ -42,28 +44,38 @@
     </nav>
 
     <!-- ✨✨Showcase✨✨ -->
-    <div class="showcase">
-        <img src="img/showcase.png" alt="" class="img-fluid pt-5">
-    </div>
+    <section class="p-lg-0 text-center text-sm-start Showcase">
+        <div>
+            <div class="container py-5 d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="pt-5">Welcome to <span class="text-warning">Crafty</span></h1>
+                    <p class="my-4 lead"> 
+                        We provide you with high-quality, handmade papercrafts at a reasonable price.
+                    </p>
+                </div>
+                <img class="img-fluid w-50 pt-5 d-none d-sm-block" src="img/1.svg" alt="">
+            </div>
+        </div>
+    </section>
     
 
     <!-- ✨✨Features Section✨✨ -->
     <section class="pt-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="features">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between text-light">
-                <img class="img-fluid p-5 w-50 d-none d-sm-block" src="img/2.svg" alt="">
+                <img class="img-fluid p-5 w-50 d-none d-sm-block" src="img/item-1.jpg" alt="">
                 <div>
                     <div id="cont1">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Good Quality Materials</h2>
-                        <p class="pb-3 text-dark px-lg-5">We use good quality material to make all our papercrafts.</p>
+                        <p class="pb-3 text-dark px-lg-5 lead">We use good quality material to make all our papercrafts.</p>
                     </div>
                     <div id="cont2">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Personalized Designs</h2>
-                        <p class="pb-3 text-dark px-lg-5">We make personalized designs as your desire at a reasonable price.</p>
+                        <p class="pb-3 text-dark px-lg-5 lead">We make personalized designs as your desire at a reasonable price.</p>
                     </div>
                     <div id="cont3">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Fast Shipping</h2>
-                        <p class="pb-3 text-dark px-lg-5">We make sure you recieve your order as soon as we have finished 
+                        <p class="pb-3 text-dark px-lg-5 lead">We make sure you recieve your order as soon as we have finished 
                             making it. We also provide free returns if you are not satisfied.</p>
                     </div>
                     <div class="orange-line"></div>
@@ -73,69 +85,67 @@
     </section>
 
     <!-- ✨✨Items Section✨✨ -->
-    <section class="p-5" id="items">
-        <div class="container">
-            <div class="row text-center g-4">
-                <div class="col-md">
-                    <div class="card bg-color text-light">
-                        <div class="card-body text-center">
-                            <h3 class="card-title mb-3 text-warning">
-                                Paper Flowers
-                            </h3>
-                            <p class="card-text">
-                                $12 (per one flower)<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum dolor.<br>
-                                Lorem ipsum.<br>
-                            </p>
-                            <a href="#" class="btn btn-warning text-light">Read More</a>
-                        </div>
-                    </div>
+    <section class="py-5">
+        <div class="container" id="items">
+            <h1 class="text-center">Items</h1>
+        </div>
+    </section>
+        
+    <section class="p-5" id="item1">
+        <div class="d-sm-flex align-items-center justify-content-between pb-3">
+            <div class="p-5 mx-auto">
+                <div>
+                    <h3 class="mb-3 item1-color">
+                        <i class="bi bi-diamond item1-color"></i> Lorem ipsum
+                    </h3>
+                    <p class="py-2 float-md-left lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
+                    </p>
+                    <a href="#" class="btn back-item1 text-light">Read More</a>
                 </div>
+            </div>
+            <img class="img-fluid p-5 w-50 d-none d-sm-block" src="img/item-2.jpg" alt="">
+        </div>
+    </section>
 
-                <div class="col-md">
-                    <div class="card bg-color">
-                        <div class="card-body text-center text-light">
-                            <h3 class="card-title mb-3 text-warning">
-                                Wall art
-                            </h3>
-                            <p class="card-text">
-                                $150<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum dolor.<br>
-                                Lorem ipsum.<br>
-                            </p>
-                            <a href="#" class="btn btn-warning text-light">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card bg-color text-light">
-                        <div class="card-body text-center">
-                            <h3 class="card-title mb-3 text-warning">
-                                Wall hanging
-                            </h3>
-                            <p class="card-text">
-                                $120<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum dolor.<br>
-                                Lorem ipsum.<br>
-                            </p>
-                            <a href="#" class="btn btn-warning text-light">Read More</a>
-                        </div>
-                    </div>
+    <section class="p-5" id="item2">
+        <div class="d-sm-flex align-items-center justify-content-between pb-3">
+            <img class="img-fluid p-5 w-50 d-none d-sm-block" src="img/item-4.jpg" alt="">
+            <div class="p-5 mx-auto">
+                <div>
+                    <h3 class="mb-3 item2-color">
+                        <i class="bi bi-diamond item2-color"></i> Lorem ipsum
+                    </h3>
+                    <p class="py-2 float-md-left lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
+                    </p>
+                    <a href="#" class="btn back-item2 text-light">Read More</a>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="p-5" id="item3">
+        <div class="d-sm-flex align-items-center justify-content-between pb-3">
+            <div class="p-5 mx-auto">
+                <div>
+                    <h3 class="mb-3 item3-color">
+                        <i class="bi bi-diamond item3-color"></i> Lorem ipsum
+                    </h3>
+                    <p class="py-2 float-md-left lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
+                    </p>
+                    <a href="#" class="btn back-item3 text-light">Read More</a>
+                </div>
+            </div>
+            <img class="img-fluid p-5 w-50 d-none d-sm-block" src="img/item-3.jpg" alt="">
+        </div>
+    </section>
+
     <!-- ✨✨Product Video✨✨ -->
-    <section class="text-light py-5" id="video">
+    <section class="py-5" id="video">
         <div class="container text-center">
-            <h2 class="text-warning pt-lg-5">Watch product video</h2>
+            <h2 class="pt-lg-5">Watch product video</h2>
             <video  width="80%" height="60%" controls>
                 <source src="img/pexels-ron-lach-7509597.mp4" type="video/mp4">
                 Your browser does not support the video tag.
