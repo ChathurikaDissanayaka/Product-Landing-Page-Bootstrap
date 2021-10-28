@@ -17,8 +17,12 @@ h1{
     font-size:20vh;
 }
 
+.bg-color{
+    background-color:rgb(45, 40, 73);
+}
+
 .getUpdated{
-    background-color:mediumslateblue;
+    background-color:rgb(45, 40, 73);
 }
 
 @media (min-width: 768px){
