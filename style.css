@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.showcase{
+    background-color:mediumslateblue;
+    padding:20px 0;
+}
+
+/* .showcase p{
+    color:rgb(24, 20, 43);
+} */
+
+h1{
+    font-weight: bold;
+    font-size:20vh;
+}
+
+.getUpdated{
+    background-color:mediumslateblue;
+}
+
+@media (min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    h2{
+        font-size:30px;
+    }
+
+    h2{
+        font-size:25px;
+    }
+}
+
+@media (max-width: 700px){
+    p{
+        font-size:12px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    h3{
+        font-size:15px;
+    }
+}
