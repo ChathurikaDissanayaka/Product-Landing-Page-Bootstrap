@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-dif{
+    font-family: 'Satisfy', cursive;
 }
 
 h1{
     font-weight: bold;
+    font-family: 'Satisfy', cursive;
 }
 
-.Showcase{
-    background-color:tomato;
-}
-
-/* Item1 */
-#item1{
-    background-color:plum;
+.Showcase,.bg-yellow, .getUpdated{
+    background-color:cornflowerblue;
 }
 
 .item1-color{
@@ -24,22 +29,12 @@ h1{
     background-color:darkmagenta;
 }
 
-/* Item2 */
-#item2{
-    background-color:khaki;
-}
-
 .item2-color{
-    color:goldenrod;
+    color:rgb(3, 190, 19);
 }
 
 .back-item2{
-    background-color:goldenrod;
-}
-
-/* Item3 */
-#item3{
-    background-color:pink;
+    background-color:rgb(3, 190, 19);
 }
 
 .item3-color{
@@ -50,12 +45,9 @@ h1{
     background-color:deeppink;
 }
 
+
+
 /*  */
-
-.getUpdated{
-    background-color:tomato;
-}
-
 h2, h3{
     font-weight: bold;
 }
@@ -64,4 +56,27 @@ h2, h3{
     .news-input{
         width: 50%;
     }
+
+    p{
+        font-size:10px;
+    }
 }
+
+@media (max-width: 768px){
+    .grad-1 {
+        background-image: linear-gradient(to right, darkmagenta , rgb(3, 190, 19));
+        height: 5px;
+        width: 95%;
+        margin: auto;
+        border-radius: 3px;
+    }
+    
+    .grad-2 {
+        background-image: linear-gradient(to right, deeppink, rgb(3, 190, 19));
+        height: 5px;
+        width: 95%;
+        margin: auto;
+        border-radius: 3px;
+    }
+}
+
