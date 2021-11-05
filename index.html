@@ -13,8 +13,7 @@
 <body class="fluid">
 
     <!-- ✨✨Navbar✨✨ -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top bg-dark">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top bg-dark px-5">
             <a href="#" class="navbar-brand text-warning text-dif">Crafty</a>
             <button 
                 class="navbar-toggler ms-auto" 
@@ -41,54 +40,51 @@
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 
     <!-- ✨✨Showcase✨✨ -->
-    <section class="p-lg-0 text-center text-sm-start Showcase">
-        <div>
-            <div class="container py-5 d-sm-flex align-items-center justify-content-between">
-                <div>
+    <section class="px-5 text-center text-sm-start Showcase">
+            <div class="row justify-content-between align-items-center pt-5">
+                <div class="col-md">
                     <h1 class="pt-5">Welcome to <span class="text-warning">Crafty</span></h1>
                     <p class="my-4 lead"> 
                         We provide you with high-quality, handmade papercrafts at a reasonable price.
                     </p>
                 </div>
-                <img class="img-fluid w-50 pt-5 d-sm-block" src="img/1.svg" alt="">
+                <div class="col-md">
+                    <img class="img-fluid pt-5 d-sm-block" src="img/1.svg" alt="" >
+                </div>
             </div>
-        </div>
     </section>
     
 
     <!-- ✨✨Features Section✨✨ -->
-    <section class="pt-5 p-lg-0 py-lg-5 text-sm-start" id="features">
-        <div class="">
+    <section class="pt-5 py-lg-5 text-sm-start" id="features">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <img class="img-fluid px-5 w-50 d-none d-sm-block" src="img/item-1.jpg" alt="">
                 <div class="px-4">
                     <div id="cont1">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Good Quality Materials</h2>
-                        <p class="pb-3 text-dark px-lg-5 lead">We use good quality material to make all our papercrafts.</p>
+                        <p class="pb-3 text-dark lead">We use good quality material to make all our papercrafts.</p>
                     </div>
                     <div id="cont2">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Personalized Designs</h2>
-                        <p class="pb-3 text-dark px-lg-5 lead">We make personalized designs as your desire at a reasonable price.</p>
+                        <p class="pb-3 text-dark lead">We make personalized designs as your desire at a reasonable price.</p>
                     </div>
                     <div id="cont3">
                         <h2 class="text-dark pb-2"><i class="bi bi-check-circle text-warning"></i> Fast Shipping</h2>
-                        <p class="pb-3 text-dark px-lg-5 lead">We make sure you recieve your order as soon as we have finished 
+                        <p class="pb-3 text-dark lead">We make sure you recieve your order as soon as we have finished 
                             making it. We also provide free returns if you are not satisfied.</p>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- ✨✨Product Video✨✨ -->
     <section class="py-5 bg-yellow" id="video">
         <div class="container text-center">
             <h1 class="pb-5">Watch product video</h1>
-            <video  width="80%" height="60%" controls>
+            <video  width="90%" height="auto" controls>
                 <source src="img/pexels-ron-lach-7509597.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -96,38 +92,39 @@
     </section>
 
     <!-- ✨✨Items Section✨✨ -->
-    <div id="items">
+    <div class="pt-5" id="items">
         <h1 class="pt-5 text-center">Items in the store</h1>
     </div>
-    <section class="py-3" id="item1">
-        <div class="row d-sm-flex align-items-center justify-content-between pb-3">
-            <div class="col-md p-5">
-                    <h3 class="mb-3 item1-color">
+
+    <section class="py-3 px-5" id="item1">
+        <div class="row py-3 align-items-center justify-content-between">
+            <div class="col-md pb-3">
+                    <h3 class="mb-3 item1-color pt-5">
                         <i class="bi bi-diamond item1-color"></i> Lorem ipsum
                     </h3>
-                    <p class="py-2 float-md-left lead">
+                    <p class="py-2 lead">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
                     </p>
                     <a href="#" class="btn back-item1 text-light">Read More</a>
             </div>
-            <div class="col-md">
-                <img class="img-fluid p-5 d-sm-block" src="img/item-2.jpg" alt="">
+            <div class="col-md py-3">
+                <img class="img-fluid" src="img/item-2.jpg" alt="">
             </div>
         </div>
     </section>
 
     <div class="grad-1"></div>
 
-    <section class="py-3" id="item2">
-        <div class="row d-sm-flex align-items-center justify-content-between pb-3">
-            <div class="col-md">
-                <img class="img-fluid p-5 d-sm-block" src="img/item-4.jpg" alt="">
+    <section class="py-3 px-5" id="item2">
+        <div class="row py-3 align-items-center justify-content-between">
+            <div class="col-md py-3">
+                <img class="img-fluid" src="img/item-4.jpg" alt="">
             </div> 
-            <div class="col-md p-5">
+            <div class="col-md py-3">
                     <h3 class="mb-3 item2-color">
                         <i class="bi bi-diamond item2-color"></i> Lorem ipsum
                     </h3>
-                    <p class="py-2 float-md-left lead">
+                    <p class="py-2 lead">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
                     </p>
                     <a href="#" class="btn back-item2 text-light">Read More</a>
@@ -137,28 +134,28 @@
 
     <div class="grad-2"></div>
 
-    <section class="py-3" id="item3">
-        <div class="row d-sm-flex align-items-center justify-content-between pb-3">
-            <div class="p-5 col-md cont">
+    <section class="py-3 px-5" id="item3">
+        <div class="row py-3 align-items-center justify-content-between">
+            <div class="col-md cont py-3">
                     <h3 class="mb-3 item3-color">
                         <i class="bi bi-diamond item3-color"></i> Lorem ipsum
                     </h3>
-                    <p class="py-2 float-md-left lead">
+                    <p class="py-2 lead">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum fugiat deserunt architecto quasi sit consectetur, est illum amet laborum at magni, eligendi dolores distinctio, ipsa ullam consequatur vero eos.
                     </p>
                     <a href="#" class="btn back-item3 text-light">Read More</a>
             </div>
-            <div class="col-md">
-                <img class="img-fluid p-5 d-sm-block" src="img/item-3.jpg" alt="">
+            <div class="col-md py-3">
+                <img class="img-fluid" src="img/item-3.jpg" alt="">
             </div>
         </div>
     </section>
 
     <!-- ✨✨Get Updated Section✨✨ -->
     <section class="p-5 getUpdated" id="get-updated">
-        <div class="container">
+        <div>
             <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Enter your email to get updated with our latest products!</h3>
+                <h4 class="mb-3 mb-md-0">Enter your email to get updated with our latest products!</h4>
             
                 <div class="input-group news-input">
                     <input 
