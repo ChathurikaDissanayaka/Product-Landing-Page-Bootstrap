@@ -1,3 +1,3 @@
-# Product-Landing-Page-Bootstrap
+# Product Landing Page
 Technologies used - HTML, CSS, Bootstrap
 
